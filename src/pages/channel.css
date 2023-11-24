@@ -1,0 +1,150 @@
+.channel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 60px;
+}
+
+.title p {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    width: 80%;
+}
+.detail-wrapper img {
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.detail-wrapper p {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+.detail-wrapper h2 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.detail-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 50%;
+}
+
+.detail-wrapper a {
+    background-color: gold;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+    border: 2px transparent;
+}
+
+.detail-wrapper a:hover {
+    background-color: white;
+    border: 2px solid gold;
+    color: gold;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    text-align: left;
+}
+
+.title-wrapper p{
+    color: black;
+}
+
+@media screen and (max-width:426px) {
+    .detail-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 70%;
+    }
+    .detail-wrapper h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .detail-wrapper img {
+        width: 200px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .detail-wrapper p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .title-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 50vh;
+        padding-top: 30px;
+    }
+
+    .channelwrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: gold;
+        padding: 30px;
+        width: 80%;
+        gap: 1rem;
+        margin: 20px;
+        border-radius: 60px;
+    }
+
+    .channelwrapper img {
+        width: 100%;
+        border-radius: 0;
+    }
+    .channelwrapper h2 {
+        color: white;
+        font-size: 1rem;
+    }
+}

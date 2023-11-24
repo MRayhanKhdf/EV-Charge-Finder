@@ -1,0 +1,35 @@
+.charge-station-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+.charge-station {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.charge-station img{
+    border-radius: 0;
+    width: 300px;
+}
+
+.charge-station p{
+    text-align: center;
+}
+
+.charge-station a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
